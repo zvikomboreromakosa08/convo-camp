@@ -7,21 +7,21 @@ const AuthPage = () => {
       <div className="auth-left">
         <div className="auth-hero">
           <div className="brand-container">
-            <img src="/logo.png" alt="Slap" className="brand-logo" />
-            <span className="brand-name">Slap</span>
+            <img src="/logo.png" alt="Convo Camp" className="brand-logo" />
+            <span className="brand-name">Convo Camp</span>
           </div>
 
           <h1 className="hero-title">Where Work Happens ✨</h1>
 
           <p className="hero-subtitle">
-            Connect with your team instantly through secure, real-time messaging. Experience
+            Real-time connection with your team through secure, instant messaging. Experience
             seamless collaboration with powerful features designed for modern teams.
           </p>
 
           <div className="features-list">
             <div className="feature-item">
               <span className="feature-icon">💬</span>
-              <span>Real-time messaging</span>
+              <span>Instant messaging</span>
             </div>
 
             <div className="feature-item">
@@ -31,13 +31,13 @@ const AuthPage = () => {
 
             <div className="feature-item">
               <span className="feature-icon">🔒</span>
-              <span>Secure & private</span>
+              <span>Private & secure</span>
             </div>
           </div>
 
           <SignInButton mode="modal">
             <button className="cta-button">
-              Get Started with Slap
+              Get Started with Convo Camp
               <span className="button-arrow">→</span>
             </button>
           </SignInButton>

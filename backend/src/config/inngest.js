@@ -4,11 +4,11 @@ import { User } from "../models/user.model.js"; // Import the User model
 import { addUserToPublicChannels, deleteStreamUser, upsertStreamUser } from "./stream.js";
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: "slack-clone" });
+export const inngest = new Inngest({ id: "convo-camp" });
 
 const syncUser = inngest.createFunction(
   { id: "sync-user" },
-  { event: "clerk/user.created" },
+  { event: "webhook-integration/user.created" },  // ✅ CHANGED
   async ({ event }) => {
     await connectDB();
 
@@ -35,7 +35,7 @@ const syncUser = inngest.createFunction(
 
 const deleteUserFromDB = inngest.createFunction(
   { id: "delete-user-from-db" },
-  { event: "clerk/user.deleted" },
+  { event: "webhook-integration/user.deleted" },  // ✅ CHANGED
   async ({ event }) => {
     await connectDB();
     const { id } = event.data;

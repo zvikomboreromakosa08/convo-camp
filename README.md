@@ -2,21 +2,24 @@
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-Highlights:
+# Convo-Camp 💬
 
-💬 Real-Time Messaging: Supports threaded conversations, message reactions, and pinned messages for improved collaboration.
-📂 File Sharing: Upload and share various file types, including images, PDFs, ZIP archives, and more.
-📊 Polls: Create polls with multiple options, anonymous participation, suggestions, and comment support.
-🔐 Authentication & User Management: Integrated with Clerk for secure authentication and role-based user management.
-📨 Direct & Private Communication: Exchange direct messages and create private channels for focused discussions.
-📹 Video Conferencing: Enables one-on-one and group video calls with screen sharing and recording functionality.
-🎉 Call Reactions: Real-time reactions available during video calls to enhance interaction.
-🔧 Background Processing: Powered by Inngest to manage asynchronous jobs and workflows.
-🚨 Error Monitoring: Production-grade error tracking and monitoring integrated with Sentry.
-🤖 AI Assistance: Code suggestions and improvements provided by CodeRabbit.
-🚀 Deployment: Includes configuration for streamlined and free deployment.
-🎯 Scalability: Built using Stream and other technologies designed for large-scale applications.
-⏳ Additional Features: Includes many more capabilities to support robust collaboration.
+A real-time Slack clone built with:
+- Frontend: React + Vite
+- Backend: Node.js + Express
+- Database: MongoDB
+- Authentication: Clerk
+- Real-time Chat: Stream Chat
+- Background Jobs: Inngest
+- Deployment: Vercel + Railway
+
+## Features
+- Real-time messaging
+- Public/private channels
+- Direct messages
+- User authentication
+- Video call capabilities
+- Background user synchronization
 
 ---
 
